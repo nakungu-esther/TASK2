@@ -1,0 +1,165 @@
+h1{
+    color: white;
+}
+h3{
+    color: brown;
+}
+h2{
+    color: palegreen;
+}
+#esther{
+    color: palevioletred;
+    
+}
+
+ul{
+    text-align: end;
+}
+.image{
+    border-radius: 5px;
+}
+li{
+    text-decoration: solid;
+    display: inline-flex;
+    color:black;
+}
+#mine{
+    background-image: url(images/places-to-visit-in-Uganda.webp);
+    background-size: cover;
+    
+}
+#index{
+    background-image:url(OIP\ \(16\).jpeg);
+    background-size: cover;
+}
+.many{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.many h2{
+    font-size: 15px;
+    color:black;
+    margin-bottom: 15px;
+}
+span{
+    color:black;
+}
+.many p.Not{
+    color:whitesmoke;
+    line-height: 20px;
+}
+.image{
+    width: 10000%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+    
+.shape{
+    height: 400%;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    transform: translateX(-70%);
+    transition: bottom 1s, left 1s;
+}
+.image:hover .shape{
+    bottom: 20px;
+}
+
+.body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(place.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+.heading{
+    width: 30%;
+    text-align: left;
+    color: #fff;
+}
+.heading h2{
+    font-size: 40px;
+}
+.heading a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 14px 50px;
+    background-color: #fff;
+
+}
+.heading a{
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+.tours{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.places{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+}
+.places h3{
+    color: red;
+    font-size: 5px;
+    text-overflow: initial;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    padding: 30px 30px ;
+    background-color: #000;
+}
+.places a{
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px 30px;
+    background-color: #fff;
+}
+.places a:hover{
+  background-color:blueviolet;
+  letter-spacing: 3px; 
+  transition: 0.6s; 
+}
+
+.footer{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.footer a :hover{
+    background-color:#fff;
+  letter-spacing: 3px; 
+  transition: 0.6s; 
+}
+
+.me{
+    font-size: 20px;
+    color:rgb(250, 176, 14);
+}
+
+
+
+

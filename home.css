@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.511),rgba(0, 0, 0, 0.11)), url(place.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+}
+body::after{
+    background-color: white;
+}

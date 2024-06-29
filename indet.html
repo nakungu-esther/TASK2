@@ -1,20 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-    <link rel="stylesheet" href="mine.css">
+    <title>Document</title>
 
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon" href="stylesheet">
+    <link rel="stylesheet" href="mine.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <a href="index.html"><li>personal</li></a>
-            <a href="home.html"><li>home</li></a>
-            <a href="indet.html"><li>About us</li></a>
-            <a href="phone.html"><li>Contact us</li></a>
-        </ul>
+
+<body id="what">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="indet.html">About us</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="phone.html">Contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
+
+    <br>
+    <div class="me" style="margin-left: 5%;font-size: large";>
+        <h1>About Us</h1>
+        <div class="container text-center">
+
+            <div class="mine" style="text-align: left; margin-top: 10%; font-size: 26px; color: brown;">
+                <p>
+                    <span class="me">Meet Nakungu Esther</span>, a passionate traveler and adventure-seeker
+                <div> with a heart of gold. With a wealth of travel</div> experience and a knack for curating
+                unforgettable<div></div> journeys, Esther is dedicated to sharing the joy of exploration with others.
+                <div> Their infectious enthusiasm, attention to detail, and love<div>for connecting people and places
+                        have made<div></div> them a beloved leader in the travel </div> When they're not planning their
+                    next big<div> adventure, you can find them sharing stories and tips with fellow travelers</div> or
+                    simply enjoying the beauty of the world around them.
+                    </p>
+                </div>
+                <div class="image" style="margin-right: 10%" width="110%" ;>
+                    <img src="IMG-20240603-WA0115.jpg" alt="About Us Image" class="you">
+                </div>
+                <div class="is" style="text-align: center;"></div>
+                <h2> what our clients say about us</h2>
+
+
+
+
+
+                <hr>
+
+
+                <div class="row">
+                    <div class="col">
+
+
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="IMG-20240603-WA0116.jpg" style=" height:400px;  " class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Natasha Diana</h5>
+                                <p class="card-text">"I've had the privilege of being part of this travel group's
+                                    adventures, and I can confidently say that they offer an experience like no other!
+                                    From the moment you join, you become part of a community that shares a passion for
+                                    exploration and connection."</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <p>Their expertise and knowledge of the destinations they visit are unmatched, and they have a way of making you feel like you're truly experiencing the heart of each place. With them, you're not just a tourist - you're a traveler, a explorer, and a part of something special. They have a gift for creating memories that will stay with you forever.</p> -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="IMG-20240603-WA0129.jpg" style="  height:400px; " class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> Tendo Alex</h5>
+                                <p class="card-text">"I've had the pleasure of traveling with this amazing group, and I
+                                    can't say enough about their exceptional work! They understand what it takes to
+                                    create an unforgettable adventure. From the meticulous planning , they leave no
+                                    stone unturned. </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="IMG-20240603-WA0098.jpg" height="400px" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> Monica Faith</h5>
+                                <p class="card-text"> I've had the pleasure of traveling with this company, and I can
+                                    honestly say it's been a game-changer! They're not just about booking flights and
+                                    hotels - they're about creating meaningful experiences that connect you with the
+                                    people and places you encounter.
+
+
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+        <footer class="text-center bg-body-tertiary">
+            <!-- Grid container -->
+            <div class="container pt-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                    <!-- Github -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2020 Copyright:
+                <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
 </body>
+
 </html>

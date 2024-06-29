@@ -22,6 +22,7 @@ li{
     text-decoration: solid;
     display: inline-flex;
     color:black;
+    text-size-adjust: 10px;
 }
 #mine{
     background-image: url(images/places-to-visit-in-Uganda.webp);
@@ -32,28 +33,15 @@ li{
     background-image:url(OIP\ \(16\).jpeg);
     background-size: cover;
 }
-.many{
-    margin-left: 8%;
-    margin-top: 15%;
-}
-.many h2{
-    font-size: 15px;
-    color:black;
-    margin-bottom: 15px;
-}
-span{
-    color:black;
-}
-.many p.Not{
-    color:whitesmoke;
-    line-height: 20px;
+.many .not{
+    text-align: left;
 }
 .image{
     width: 10000%;
     height: 20%;
-    position: absolute;
+    position:absolute;
     bottom: 0;
-    right: 100px;
+    right: 50px;
 }
     
 .shape{
@@ -118,16 +106,7 @@ span{
     letter-spacing: 1px;
     border-radius: 1px;
     padding: 30px 30px ;
-    background-color: #000;
-}
-.places a{
-    text-decoration: none;
-    color:blue;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 12px;
-    padding: 12px 30px;
-    background-color: #fff;
+    background-color: none;
 }
 .places a:hover{
   background-color:blueviolet;
@@ -159,7 +138,169 @@ span{
     font-size: 20px;
     color:rgb(250, 176, 14);
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+/* Navbar Styles */
+.navbar  {
+    background-color: #333;
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #f0e9e9;
+}
+ .active {
+    text-decoration: underline;
+    color: #fff !important; 
+}
+
+/* Contact Info Styles */
+.contact h2, .contact p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon i {
+    font-size: 30px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.text h3 {
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin: 0;
+}
+
+/* Form Styles */
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputbox input,
+.inputbox textarea {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    resize: none;
+}
+
+.inputbox span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-10%);
+    pointer-events: none;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.inputbox input:focus + span,
+.inputbox input:valid + span,
+.inputbox textarea:focus + span,
+.inputbox textarea:valid + span {
+    top: -10px;
+    font-size: 12px;
+    color: aqua;
+}
+
+.inputbox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: aquamarine;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
 
 
+.image {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.mine .me {
+    text-align: right;
+
+}
+
+.you {
+    height: 400%;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    transform: translateX(-70%);
+    transition: bottom 1s, right 1s;
+}
+
+.image:hover .you {
+    bottom: 20px;
+}
+#what{
+    background-image:url(OIP\ \(16\).jpeg);
+    background-size: cover;
+}
+.people{
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+}
+.people h3{
+    color: black;
+    font-size: 50px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    padding: 10px 10px ;
+    background-color: none;
+    margin-right: 70%;
+}
+.people a:hover{
+  background-color:blueviolet;
+  letter-spacing: 3px; 
+  transition: 0.6s; 
+}
+.who{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
 
 

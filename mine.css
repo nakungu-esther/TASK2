@@ -37,6 +37,9 @@ li{
 .many .not{
     text-align: left;
 }
+.many{
+    color: azure;
+}
 .image{
     width: 10000%;
     height: 20%;
